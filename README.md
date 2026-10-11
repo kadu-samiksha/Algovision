@@ -53,9 +53,3 @@ Space play/pause, Left/Right previous/next, R reset, G new array (sorting and se
 
 `npm test` covers: all six sorts against every permutation up to 6 elements (duplicates, negatives, sorted, reversed, size 40) with per-step checks of counters, highlights and Java line metadata; linear and binary search against reference results; stack and queue rules; linked list operations against an array model; tree parsing, layout and all four traversals against independent implementations; playback timing; storage sanitising; the question bank; and rendered-page flows for every route.
 
-## Known limitations
-- Verified in jsdom, not yet by eye in real browsers. Do a visual pass on desktop and a phone before publishing.
-- The reset-confirmation dialog uses the native `<dialog>`, which jsdom cannot open, so that interaction is untested.
-- Negative values are drawn scaled from the smallest value (noted in the UI) rather than with a zero baseline.
-- Linked list: singly linked only, up to 10 nodes. Stack and queue: capacity 10. Arrays: 2 to 40 values.
-- Progress is per browser and not synced. Dark theme only.
