@@ -50,5 +50,3 @@ Values row by row, left to right, with `null` for a missing child. A null node h
 Space play/pause, Left/Right previous/next, R reset, G new array (sorting and searching). Paused while typing and while a dialog is open.
 
 
-`npm test` covers: all six sorts against every permutation up to 6 elements (duplicates, negatives, sorted, reversed, size 40) with per-step checks of counters, highlights and Java line metadata; linear and binary search against reference results; stack and queue rules; linked list operations against an array model; tree parsing, layout and all four traversals against independent implementations; playback timing; storage sanitising; the question bank; and rendered-page flows for every route.
-
